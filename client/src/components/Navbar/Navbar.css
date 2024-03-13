@@ -1,0 +1,71 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px black;
+ 
+}
+
+.bagimg {
+    width: 150px;
+    margin-left: -25px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    gap: 10px;
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    font-weight: 500;
+    color: rgb(63, 58, 58);
+}
+
+.menu-list li {
+    cursor: pointer;
+}
+
+.login-cart {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+
+}
+
+.login-cart button {
+    padding: 10px;
+    width: 75px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.login-cart button:hover {
+    background-color: blue;
+}
+
+.cart-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.cart-count {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: -33px;
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    font-size: 11px;
+    margin-left: -54px;
+    color: white;
+
+}

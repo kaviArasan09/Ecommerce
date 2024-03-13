@@ -1,0 +1,12 @@
+.popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.data-item{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}

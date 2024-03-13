@@ -1,0 +1,30 @@
+.newsletter{
+    width: 65%;
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    margin: 80px;
+    border-radius: 10px;
+    
+}
+
+.newsletter h1{
+    padding-left: 80px;
+}
+
+.newsletter p{
+    padding-left: 80px;
+}
+
+.newsletter input{
+    margin: 20px;
+    margin-left: 80px;
+    width: 400px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+.newsletter button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
